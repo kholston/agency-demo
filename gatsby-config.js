@@ -5,6 +5,10 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: "YourWebDev",
+    description: "Your premier web developer",
+  },
   /* Your site config here */
-  plugins: [],
+  plugins: [`gatsby-plugin-styled-components`],
 }
