@@ -13,7 +13,7 @@ import { Header, Footer, GenericH2, GenericPara } from "../styles/IndexStyles"
 
 function Layout({ children }) {
   return (
-    <>
+    <div>
       <Header>
         <GenericH2 none>
           <Link to="/" style={{ color: "#fff" }}>
@@ -48,7 +48,7 @@ function Layout({ children }) {
           <span>Made with ♥️ and ☕️</span>
         </div>
       </Footer>
-    </>
+    </div>
   )
 }
 

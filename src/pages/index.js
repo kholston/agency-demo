@@ -11,7 +11,7 @@ import {
   faGalacticSenate,
 } from "@fortawesome/free-brands-svg-icons"
 import { Link } from "gatsby"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import {
   Banner,
   TextWrapper,
@@ -27,7 +27,7 @@ import {
 
 library.add(faHeart, faCode, faGem, fas, fab)
 
-export default function Home() {
+const Index = () => {
   return (
     <Layout>
       <div style={{ position: "relative" }}>
@@ -46,7 +46,7 @@ export default function Home() {
         <MoreText>Learn More</MoreText>
       </div>
       <SectionTwo>
-        <>
+        <div>
           <GenericH2>Our Passion</GenericH2>
           <GenericPara>
             Optimism is an occupational hazard of programming: feedback is the
@@ -78,7 +78,7 @@ export default function Home() {
               border
             />
           </span>
-        </>
+        </div>
       </SectionTwo>
       <SectionThree>
         <FlexBoxIndex>
@@ -244,3 +244,5 @@ export default function Home() {
     </Layout>
   )
 }
+
+export default Index
