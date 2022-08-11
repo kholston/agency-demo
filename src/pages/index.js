@@ -224,7 +224,8 @@ const Index = () => {
       <section style={{ position: "relative" }}>
         <Banner parallax></Banner>
         <FormFive>
-          <form name="contact" method="post" data-netlify="true">
+          <form name="Contact Form" method="post" data-netlify="true">
+            <input type="hidden" name="form-name" value="Contact Form" />
             <div className="fields">
               <GenericH2 none>Contact Us</GenericH2>
               <input type="text" name="name" id="name" placeholder="Name" />
